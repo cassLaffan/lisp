@@ -1,4 +1,4 @@
-(load "animalGraph.lisp")
+(load "animal_graph.lisp")
 
 (defun findPath (histList start goal)
 	(if (or (equal start nil) (member start histList :test #'equal))
