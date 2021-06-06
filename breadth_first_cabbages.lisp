@@ -1,4 +1,4 @@
-(load "animalGraph.lisp")
+(load "animal_graph.lisp")
 
 ;;breadth first, none recursive
 (defun findPath (start goal)
